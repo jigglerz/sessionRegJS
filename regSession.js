@@ -1,1 +1,1 @@
-
+console.log("external JS");
