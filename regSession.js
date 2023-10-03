@@ -1,1 +1,3 @@
-console.log("external JS");
+function(){
+  console.log("external JS");
+}
