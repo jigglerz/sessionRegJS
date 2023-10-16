@@ -109,6 +109,7 @@ async function sendRequest(url, bearerToken) {
   const response = await fetch(url, {
     method: 'PUT',
     headers: headers,
+    mode: 'no-cors',
   });
 
   if (!response.ok) {
