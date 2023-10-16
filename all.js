@@ -1,4 +1,3 @@
-<script>
 let results;
 let failedResults = [];
 let bearerToken;
@@ -183,4 +182,3 @@ async function getToken() {
     const outputTextarea = document.getElementById('outputToken');
     outputTextarea.value = accessToken;
 }
-</script>
