@@ -103,7 +103,8 @@ async function runSendAPIRequests() {
 
 async function sendRequest(url, bearerToken) {
   const headers = {
-    'Authorization': `Bearer ${bearerToken}`
+    'Authorization': 'Bearer ${bearerToken}',
+    'Content-Type': 'application/json',
   };
 
   const response = await fetch(url, {
